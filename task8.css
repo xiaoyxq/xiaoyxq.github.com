@@ -1,0 +1,130 @@
+.body{
+	width: 70%;
+	position: relative;
+	margin: auto;
+	font-size: 12px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.body-topnav{
+	padding: 24px 0;
+	border-bottom: 1px gray solid;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+.body-topnav span.color{
+	color: #29b078;
+}
+.body-middlenav{
+	margin: 18px 0;
+
+}
+.body-middlenav span{
+	margin-right:16px;
+}
+.body-middlenav span.bgd{
+	background: #29b078;
+	padding: 2px;
+}
+ .list-block{
+	width: 30%;
+	float: left;
+	margin: 45px 20px 0 9.4px;
+	overflow: hidden;
+}
+.list-block-top{
+	height: 120px;
+	overflow: hidden;
+}
+.avatar-img{
+	float: left;
+	width: 100px;
+	margin:5px 5px 5px 10px;
+}
+.block-top-font{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.list-block-top-text{
+	overflow: auto;	
+	white-space: nowrap;	
+}
+.list-block-level{
+	width: 45%;
+	float: left;
+	margin: 10px 5px;
+}	
+.treatment{
+	width: 100%;
+	height: 62px;
+	float: left;
+}
+.treatment dt{
+	float: left;
+	width: 41%;
+	line-height: 62px;
+	text-align: center;
+}
+.treatment ul{
+	list-style: none;
+	width: 28%;
+	float: left;
+	overflow: hidden;
+}
+ul.right li{
+	float: right;
+}
+span.red{
+	color: red
+}
+.studying{
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 2px 0;
+	overflow: hidden;
+}
+
+#introduction{
+	position: absolute;
+	top: 5%
+	border: 1px red solid;
+	background-color: rgba(61,61,61,0.5);
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.profession{
+	text-align: center;
+	padding: 18% 0 3% 0;
+}
+.detail{
+	padding: 0 10% 15% 10%;
+}
+#introduction2{
+	margin-left: 33%;
+}
+#introduction3{
+	margin-left: 66%;
+}
+
+#introduction5{
+	margin-left: 33%;
+}
+#introduction6{
+	margin-left: 66%;
+}
+
+.clear{clear: both;}
+
+#introduction8{
+
+	margin-left: 33%;
+}
+#introduction10{
+	margin-left: 33%;
+}
+#introduction11{
+	margin-left: 66%;
+}

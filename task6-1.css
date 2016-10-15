@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    width: 100%;
+    min-width: 320px;
+    max-width: 720px;
+    font-family: "Microsoft";
+    font-size: 28px;
+    color: #b6b6b6;
+    background: #f0f0f0;
+}
+.topnav{
+  background: #29bde0;
+  width: 100%;
+  height: 120px;
+}
+.menu-icon {
+    position:relative;
+    display:inline-block;
+    width:30px;
+    text-indent:-999px;
+    top: 75px;
+    left: 20px;}
+.border-icon {
+    height:16.5px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+}
+.border-icon:before {
+content:"" ;
+position:absolute;
+top: 6.5px;
+left: 0;
+width: 100%;
+border-top: 3px white solid;
+}
+.center1{
+  background: #ffffff;
+  color: #9a9a9a;
+  width: 90%;
+  height: 80px;
+  margin: 22px auto;
+}
+.last{
+ display: block;
+ line-height: 80px;
+ margin-left: 185px;
+
+}
+.image1{
+  float: right;
+  position: relative;
+  right: 15px;
+  top: -60px;
+  
+}
+.center2{
+height: 620px;
+}
+.h1{
+  color: #fbb435;
+  display: block;
+  padding: 15px 256px;
+  border-bottom: 1px #fbb435 solid;
+}
+.center3{
+  display: block;
+  background: #29bde0;
+  color: white;
+  width: 80%;
+  height: 100px;  
+  margin: 22px auto;
+  line-height: 100px;
+
+}
+.select{
+  padding-left: 202px;
+}
+.text{
+  font-size: 23px;
+  display: block;
+  padding-left: 155px;
+}
+.out{
+  float: left;
+  position: relative;
+  left: 40%;
+}
+.circle{
+  background: #29bde0;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  float: left;
+  margin: 4px;
+}
+.circle2{
+  background: #f0f0f0;
+}
+.arrow{
+  width: 0;
+  height: 0;
+  border: 25px white solid;
+  border-left: 25px #fbb435 solid;
+  float: right;
+  position: relative;
+  top: -15.5%;
+  right: 1%;
+}

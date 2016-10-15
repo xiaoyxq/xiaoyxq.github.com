@@ -1,0 +1,17 @@
+ul{list-style: none;}
+li i{
+	background: url(./images/task6-2_image3.png);
+	display: inline;
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.cat-1 i {
+	background-position: 0 0;
+}
+.cat-2 i {
+	background-position: 0 -55px;
+}
+.cat-3 i {
+	background-position: -55 -590px;
+}

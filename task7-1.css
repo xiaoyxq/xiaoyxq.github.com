@@ -1,0 +1,266 @@
+
+*{
+        margin: 0;
+        padding: 0;   
+}
+
+.title{     
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: url(./images/task7-1_backg.png) no-repeat;
+	/*background-size: 1120px 400px;*/	
+}
+.title-middle{
+	
+            width: 60%;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 27%;
+	left: 16%;	
+}
+.title-text-top{
+	font-size: 30px;
+	text-align: right;
+	
+}
+.title-text-bottom{
+	font-size: 42px;
+	text-align: right;
+
+}
+.title-text-middle{
+	font-size: 60px;
+}
+.left-img{
+	display: block;
+	position: absolute;
+	top: 35%;
+	left: 15%;
+}.right-img{
+	display: block;
+	position: absolute;
+	top: 35%;
+	left: 82%;
+}
+.circle{
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	border: 1px white solid;
+	margin: 2.5px;
+	float: left;	
+}
+.circle-position{
+	position: absolute;
+	top: 92%;
+	left: 50%;
+}
+
+.body{
+	width: 100%;
+	background:#fafafa;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 18px;
+
+}
+.body-top{
+	margin-left: 12%;
+	margin-top: 7%;
+	overflow: hidden;
+}
+
+.body-top-efficient{
+	width: 180px;
+	height: 150px;
+	float: left;
+	margin: 35px;
+}
+
+.body-top-icon1{
+	display: block;
+	margin: auto;
+}
+.body-top h3{
+	width: 100%;
+	margin-top: 18px;
+	margin-bottom: 18px;
+
+}
+.body-top p{
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+.body-top-right{
+	width: 200px;
+	height: 180px;
+	float: left;
+	margin:55px 35px;
+	border-left:  1px #6c7683 dashed;
+	display: table;
+}
+.body-top-right-text{
+	padding-left: 65px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	
+}
+.body-top-right-color{
+	color: #29b078;
+	font-weight: bold;
+}
+
+
+
+
+
+.body-study{
+	
+
+}
+.body h3{
+	text-align: center;
+
+}
+.body-study-neir{
+	width: 75.5%;
+	
+	margin-left: 12%;
+	margin-top: 40px;
+	overflow: hidden;
+
+}
+.body-number{
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	border:1px #29b078 solid;
+	background: white;
+	color: #29b078;
+	font-size: 18px;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	margin-left: 12px;
+}
+.body-text{
+	float: left;
+	width: 150px;
+	height: 36px;
+	margin:  0px 12px;
+	line-height: 36px;
+	
+}
+.body-text-line{
+	margin-top: 10px;
+	height: 40px;
+}/*单行居中对齐和把序号5挤下去*/
+.body-arrow{
+	float: left;
+	margin: 12px;
+}
+.body-none{
+	width: 100%;
+	height: 35px;
+	float: left;
+}
+
+
+
+.body-bottom{
+	margin-top: 55px;
+	margin-left: 12%;
+	position: relative;
+	overflow: hidden;
+
+}
+.body-bottom h3{
+	margin-left: -13%;
+	text-align: center;}
+	/*居中存在问题*/
+.body-student{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.body-student-data{
+	width: 190px;
+	height: 280px;
+	float: left;
+	background: white;
+	padding: 20px 15px;
+	margin: 16px;
+
+}
+.body-student-avatar{
+	text-align: center;
+}
+.body-student-data h3{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+
+.body-bottom-circle-position{
+	position: absolute;
+	left: 40%;
+	top: 385px;
+}
+.body-bottom-circle{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: white;
+	float: left;
+	margin: 3px;
+}
+.body-bottom-circle-color{
+	background:#29b078;
+}
+
+
+
+
+.business-parters{
+	margin-top: 65px;
+	height: 300px;
+
+
+}
+.business-parters h3{
+	text-align: center;
+}
+
+
+.f-link{
+	background:white;
+	overflow: hidden;
+}
+.f-link h3{
+	text-align: center;
+}
+.f-link-position{
+	margin-left: 12%;
+	margin-top: 5px;
+}
+.f-link-float{
+
+}
+.f-link ul{
+	font-size: 12px;
+	line-height: 25px;
+	float: left;
+	margin: 5px 34px ;
+}
+.f-link-border{
+	border-bottom: 2px #29b078 solid;
+}
+
+
+.clear{clear: both;}

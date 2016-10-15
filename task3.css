@@ -1,0 +1,44 @@
+
+body{
+    max-width:720px;
+    min-width:360px;
+ 
+ }
+ .all{
+    background:#68cdd5;
+    color:white;
+     width:750px;
+     position:relative;
+     overflow:hidden;
+ }
+.pc1{
+    float:left;
+    margin:25px 0 0 25px;
+    }
+
+.pc2{
+    margin:25% 0 0 35%;
+    }
+
+p{
+    width:60%;
+    margin-top:85px;
+    margin-left:20%;
+    font-size:130%;
+    font-family:"宋体";
+    line-height:2em;
+    }
+.number{
+    margin:25% 0 15% 24%;
+    display:inline-block;
+}
+
+.desc{
+    width:60%;
+    margin: 1px auto;
+    font-size:130%;
+    line-height:2em;
+    transform: translateX(-40%);
+  }
+.clear{clear:both;
+        overflow:hidden;}

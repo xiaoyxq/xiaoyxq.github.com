@@ -1,0 +1,107 @@
+
+*{
+        margin: 0;
+        padding: 0;   
+
+}
+body{min-width: 360px;}
+
+
+
+
+@media screen and (max-width: 1200px){
+	.title-text-top{
+		font-size: 20px;		
+	}
+	.title-text-bottom{
+		font-size: 30px;
+	
+	}
+	.title-text-middle{
+		font-size: 50px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+	.ddd{
+		width:50%;
+		margin:auto!important;
+		// border:1px red solid;
+	}
+
+	.body-study-neir{
+		width:270px;
+		margin:auto!important;
+		margin-top: 45px!important;	
+	}
+	.body-text{
+		width: 130px;	
+		margin-left: 15px;
+		margin-bottom: 10%;	
+	}
+	.body-arrow{
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+		margin-bottom: 10%;		
+	}
+
+	.body-student-data{
+		width: 60%!important;
+		margin-left: 20%;
+	}
+
+	.business-parters img{
+		width:180px;
+		margin:auto!important;
+		// margin-left:35%!important;
+		
+	}
+	.body-student-data h3{
+		
+		margin-top: 10px;
+		margin-bottom: 3px;
+	}
+	.body-bottom-circle-position{
+		position: absolute;
+		left: 45%;
+		top: 102%;
+	}
+
+	.small{
+		// border:1px red solid;
+		width:200px;
+		// overflow:hidden;
+		margin:auto;
+	}
+
+	.st-title{
+		
+		margin-top: 150px;
+	}
+	
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	.row{
+		margin-left: 6%!important;	
+	}
+
+	.body-student-data{
+		width: 40%!important;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	
+}
+
+
+
+

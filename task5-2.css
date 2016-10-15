@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+.all{
+    width: 100%;
+    min-width: 320px;
+    max-width: 720px;
+    font-family: "Microsoft";
+    font-size: 25px;
+    color: #b6b6b6;
+    background: white;
+}
+div.daohang{
+  width: 100%;
+  height: 120px;
+  background: #5fc0cd;
+}
+span.zgz{
+  background: #55a8b3;
+  color: white;
+  float: left;
+  position: relative;
+  left: 35%;
+  top: 40%;
+  padding: 15px 25px;
+  border: 1px solid #55a8b3;
+  border-radius: 12px;
+}
+span.zhg{
+  background: #ffffff;
+  color: #5fc0cd;
+  float: left;
+  position: relative;
+  left: 32.5%;
+  top: 40%;
+  padding: 15px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+.right{
+  float: right;
+  position: relative;
+  top: 48%;
+  right: 2%;
+}
+.select{
+  font-size: 20px;
+}
+.rightborder{
+   border-right: 1px #eff0f4 solid;
+   padding: 5px 69px 5px 57px;
+   margin: 15px;
+   float: left;
+}
+.quite{
+   padding: 5px 69px 5px 57px;
+   margin: 15px;
+   float: left;
+}
+/*去掉右边框*/
+.pc2{
+  position: relative;
+  left: 45px;
+  bottom: 3px;
+}
+.main{
+  width: 100%;
+  height: 55px;
+  border-top: 1px #b6b6b6 solid;
+  margin-top: 60px;
+  padding-top: 15px;
+}
+.date{
+  font-size: 20px;
+  line-height: 32px;  
+}
+.block{
+  display: block;
+  margin-left: 43px;
+  color: black;
+  font-weight: bold;
+}
+.pc3{
+  width: 17px;
+  margin-left: 15px;
+}
+.price{
+   float: right;
+   position: relative;
+   bottom:108%;
+   right: 7%;
+   color: red;
+   font-size: 24px;
+}
+.pc5{
+  width: 15px;
+  float: right;
+  position: relative;
+  bottom:106%;
+  left: 12%;
+}
+.last{
+  border-bottom: 1px #b6b6b6 solid;
+  padding-bottom: 5px;
+  height: 35px;
+}
+.pc6{
+  float: left;
+  position: relative;
+  left: 20%;
+}
+.shouye{
+  display: block;
+}
+.pc7{
+  float: left;
+  position: relative;
+  left: 35%;  
+}
+.myy{
+  float: right;
+  position: relative;
+  right: 20%;
+}
+.my{
+  display: block;
+
+}

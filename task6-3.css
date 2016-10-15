@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+div.all{
+    width: 100%;
+    min-width: 320px;
+    max-width: 720px;
+    font-family: "Microsoft";
+    font-size: 28px;
+    color: white;
+    background: #29bde0; 
+}
+.topnav{text-align: center;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 0.5px white solid;
+}
+.image1{
+  position: relative;
+  top: 45px;
+  left: 25px;
+  width: 45px;
+}
+.image2{
+  float: right;
+  position:relative;
+  top: -51px;
+  right: 25px;
+  width: 35px;
+}
+.position{
+  width: 100%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.image3{
+  width: 300px;  
+}
+.image4{
+  width: 65px;
+  position: absolute;/*绝对定位 自适应问题*/
+  left: 331px;
+  top: 21px;
+}
+.textone{
+  font-size: 36px;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  top: 121px;
+  left: 287px;
+}
+.text-joy{
+  font-size: 25px;
+  color: #fbb435;
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+}
+.text-notes{
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 20%;
+  margin-top: 55px;
+}
+span.margin-right{
+  margin-right: 18px
+
+}
+.block{display: block;}
+.background{background: white;
+ color:#a6a6a6;
+  font-size: 18px;
+   border-bottom: 1px #a6a6a6 solid;
+   padding-top: 6px;
+   padding-bottom: 20px;
+  }
+.marginleft{
+  margin-left:20%;
+ 
+
+}
+.fontweight{font-weight: bold;
+  color: black;
+   font-size: 25px;
+   margin-right: 195px;
+ }
+.fontsize{font-size: 15px;}
+
+.fixed{
+  background-color: rgba(41,189,224,0.4);
+  /*背景透明 前3为背景颜色rgb值*/
+  width: 100%;
+  height: 115px;
+  min-width: 320px;
+  max-width: 720px;/*缺少这个值时背景为全屏*/
+  position: fixed;
+  bottom: 15px;
+  font-size: 35px; 
+}
+.onceagain{
+  background: #f66f6f;
+  width: 185px;
+  border-radius: 15px;
+  padding: 15px 45px;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  bottom: 18px;
+}
+.upload{                                                                                             
+  background: #fbb435;
+  width: 185px;
+  border-radius: 15px;
+  padding: 15px 45px;
+  text-align: center;
+  position: absolute;
+  right: 35px;
+  bottom: 18px;
+}
+.clear{clear: both;}

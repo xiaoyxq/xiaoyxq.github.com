@@ -1,0 +1,64 @@
+@media screen and (max-width: 410px){
+		.e-header .e-header-top .top-left{
+		  margin-left: 0%;	
+	}
+}
+
+
+@media screen and (max-width: 630px){	
+		.e-header-topnav{
+		width: 100%;		
+	}
+		.e-header-topnav span{
+		margin: 25px 0px 25px 5px;
+	}
+
+
+	.fstep{
+		width: 100%;	
+	}
+	.fstep span{
+		padding: 22px 5px;			
+	}
+	.fstep-circle-size{	
+		margin-right: 72px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+	.outer{
+		margin-bottom: 20px;
+	}
+	.inner {
+		margin-bottom: 20px;
+	}
+	.step1-details{
+		margin-top:16px;
+		margin-bottom:10px;
+	}
+
+	.s-step-details{
+	
+		margin: 15px 0 30px 0 ;
+
+	}
+
+	.step3-details{
+		margin:20px 0;
+	}
+	
+	.footer-center{
+		margin: 35px 0;
+	}
+}
+
+
+@media screen and (max-width: 992px){
+	.step3-line{
+		margin-bottom:6px;
+	}
+
+}
+
+

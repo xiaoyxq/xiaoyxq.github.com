@@ -1,0 +1,138 @@
+*{
+        margin: 0;
+        padding: 0;   
+
+}
+
+.title{     
+	position: relative;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	overflow: hidden;
+	
+}
+.title-img{
+	background: #fafafa;
+	width: 100%;
+	margin-bottom: 45px;
+}
+.title-text{
+	position: absolute;
+	top: 31%;
+	left: 42%;
+	font-size: 38px;
+
+
+}
+.title-textt-two{
+	position: absolute;
+	top: 54%;
+	left: 44.7%;
+	font-size: 20px;
+}
+.title-textt-three{
+	position: absolute;
+	top: 65%;
+	left: 44.7%;
+	font-size: 17px;
+}
+.title-textt-four{
+	position: absolute;
+	top: 45%;
+	left: 56%;
+	font-size: 45px;
+}
+
+.background{
+	position: relative;
+}
+span.title-color{
+	color: #29b078;
+}
+.left-position{
+	margin-left: 19%;
+	
+}
+.left-page{
+	margin-top: 5%；
+}
+.leftnav{
+	width: 200px;
+	background: white;
+}
+.leftnav-title{
+ 	font-weight: bold;
+ 	text-align: center;
+ 	border-bottom: 1px green solid;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+}
+ ul{
+	line-height: 35px;
+	font-size: 12px;
+	color: #29b078;
+	list-style: none;
+}
+li{
+	text-align: center;
+}
+li .red{
+	color: red
+
+}
+
+.body{
+	width: 650px;
+	overflow: hidden;
+	position: absolute;
+	top: 2.7%;
+	left: 36%;
+	font-size: 12px;
+	line-height: 25px;
+}
+.body-top{
+	width: 100%;
+	height: 140px;
+	display: table;
+	border-bottom: 1px green solid; 
+}
+.body-icon{
+	display: table-cell;
+	vertical-align: middle;
+	width: 180px;
+	position: relative;	
+	margin-left: 10px;
+}
+span.body-icon-text{
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	display: block;
+	float: left; 
+}
+.body-icon-color{	
+	color: red;
+	font-size:7px;
+	position: absolute;
+	top: 66px;
+	left: 60px;
+
+}
+.body-img{
+	float: left;
+	width: 35px;
+	margin-left: 30px;
+}
+.body p{
+	
+	margin-top: 15px;
+	margin-left: 35px;
+	margin-right: 35px;
+	
+	
+}
+.empty{
+	width: 20px;
+	height: 400px;color: white;
+}
