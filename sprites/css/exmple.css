@@ -1,0 +1,18 @@
+
+/** sprite: mysprite; sprite-image: url('../img/mysprite.png'); sprite-layout: vertical */
+#web {     width: 17px;     height: 17px; 
+    background-repeat: no-repeat; 
+  background-image: url(./img/task6-2_2.png); /** sprite-ref: mysprite; */ 
+}
+
+ #logo {     width: 50px;
+	    background-repeat: no-repeat;   
+	  background-position: 5px right; 
+    	background-image: url(./img/task6-2_2.png);  /** sprite-ref: mysprite; sprite-alignment: right */ 
+ } 
+
+#main-box { 
+    background-repeat: repeat-x;    
+    background-position: 5px left; 
+    background-image: url(./img/task6-2_3.png);/** sprite-ref: mysprite; sprite-alignment: repeat; sprite-margin-top: 5px */
+}  
