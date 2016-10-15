@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+.all{
+    width: 100%;
+    min-width: 320px;
+    max-width: 720px;
+    font-family: "Microsoft";
+    font-size: 25px;
+    color: white;
+    background: #eff0f4;
+}
+div.topnav{
+    background-color: #5fc0cd;
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+.pc1{
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+div.bg{
+    background: url(./images/task5_pc5.png) 100% 100% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 326px;
+}
+.pc4{float: left;
+    position:relative;
+    top: 15%;
+    left: 3%;
+}
+div.jc{
+    position: relative;
+    top:42%;
+    left: 11%;
+}
+table tr th,td{
+    color: black;
+    border-bottom: 1px solid #bebec2 ;   
+    padding: 25px;
+}
+.nonewline{
+    word-break: keep-all;
+}
+.pc3{
+    width: 18px;
+}
+.rb{
+    border-right: 1px  solid #bebec2 ;  
+    padding-right: 35px; 
+}
+.dingwei{
+    position: relative;
+    top: 120px;
+    left: 25px;
+}
+.footer{
+    font-size: 35px;
+    padding: 31px 108px;
+    border: 2px #5fc0cd solid;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
