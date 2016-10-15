@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>checkbook</title>
+<meta charset="utf-8" />
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<style type="text/css">
+
+/*[id^="checkbox-"] + label {
+ background-color: #FFF;
+ padding: 11px 9px;
+ border-radius: 7px;
+ display: inline-block;
+ position: relative;
+ margin-right: 30px;
+ background: #F7836D;
+ width: 88px;
+ height: 13px;
+ box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(245, 146, 146, 0.4);
+}*/
+/*[id^="checkbox-"] + label:before {
+ content: ' ';
+ position: absolute;
+ background: #FFF;
+ top: 0px;
+ z-index: 99999;
+ left: 0px;
+ width: 24px;
+ color: #FFF;
+ height: 35px;
+ border-radius: 7px;
+ box-shadow: 0 0 1px rgba(0,0,0,0.6);
+}
+[id^="checkbox-"] + label:after {
+ content: '禁止';
+ position: absolute;
+ top: 7px;
+ left: 37px;
+ font-size: 1.2em;
+ color: white;
+ font-weight: bold;
+ left: 8px;
+ padding: 5px;
+ top: 4px;
+ border-radius: 100px;
+}*/
+/*[id^="checkbox-"]:checked + label {
+ background: #67A5DF;
+ box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), 0 0 10px rgba(146, 196, 245, 0.4);
+}
+[id^="checkbox-"]:checked + label:after {
+ content: '允许';
+ left: 6px;
+}
+[id^="checkbox-"]:checked + label:before {
+ content: ' ';
+ position: absolute;
+ z-index: 99999;
+ left: 82px;
+}
+
+[id^="checkbox-"] + label:after {
+ left: 35px; 
+} */
+.radio +label{
+position: relative;
+/*display: inline-block;*/
+/*z-index: 999;
+width: 12px;
+height: 25px;
+padding: 3px 29px;*/
+}
+.radio+label:before{
+ content:"";
+ color:#fff; 
+ width: 20px;
+ height: 20px;
+ background: #777980;
+ border-radius: 15px;
+ position: absolute;
+ top: 4px;
+ left: 4px;
+ display:block;
+/* box-shadow: 0px 0px 3px #A19797;*/
+}
+.radio:checked+label:before{
+content:"";
+background: #1caf9a;
+}
+.radio+label:after{
+ content: attr(title);
+ width: 8px;
+ height: 8px;
+ display:block;
+ border: 3px solid #F7F9F9;
+position: absolute;
+top: 7px;
+left: 7px;
+border-radius: 7px;
+background: #777980;
+/*box-shadow: 0px 0px 3px #F2EBEB;*/
+}
+.radio:checked+label:after{
+	content:"";
+background: #1caf9a;
+}
+</style>
+</head>
+<body>
+<!-- <p>利用复选框做开关</p>
+<input type="checkbox" id="checkbox-2"  hidden /><label for="checkbox-2"></label> -->
+
+
+<div style="margin: 30px;">
+<p>问：您是否觉得您是最好的？</p>
+<input type="radio" class="radio" name="n" id="check-1" hidden><label for="check-1">是</label>
+
+<input type="radio" class="radio" name="n" id="check-2" hidden><label for="check-2" title="">否</label>
+</div>
+
+</body>  
+</html>

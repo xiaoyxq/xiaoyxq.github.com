@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>select</title>
+<style type="text/css">
+
+#parent {
+    background: url('yourimage') no-repeat;
+    width: 100px;
+    height: 30px;
+   
+     overflow: hidden;
+}
+
+#parent select {
+    background: transparent;
+    
+    padding-left: 10px;
+    width: 120px;
+    height: 100%;
+
+}
+
+
+ input[type='radio'].radio {opacity:0; display:inline-block; height:20px; }
+        label.radio {background:url(imgs/radio_check.png) no-repeat; height:20px; padding-left:25px;}
+        input[type='radio'].radio:checked + .radio {background:url(imgs/radio_checked.png) no-repeat;}
+</style>
+</head>
+<body>
+<div id="parent">
+  <select>
+      <option>what</option>
+      <option>the</option>
+      <option>hell</option>
+  </select>
+</div>
+
+
+  <input type="radio" name="gender" id="x" value="X"><label for="x">我要保密</label><br>
+    <input type="radio" name="gender" id="y" value="M"><label for="y">我是帅哥</label><br>
+    <input type="radio" name="gender" id="z" value="F"><label for="z">我是美女</label><br>
+    
+    <input type="radio" name="sex" id="a" value="X" class="radio"><label for="a" class="radio">我要保密</label><br>
+    <input type="radio" name="sex" id="b" value="M" class="radio"><label for="b" class="radio" >我是帅哥</label><br>
+    <input type="radio" name="sex" id="c" value="F" class="radio"><label for="c" class="radio" >我是美女</label><br>
+
+</body>
+</html>
