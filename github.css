@@ -1,4 +1,5 @@
 body{	
+	min-width: 1000px;
 	width: 90%;
 	margin: auto;
 	background: #efeaf5;
