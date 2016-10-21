@@ -1,0 +1,118 @@
+body{
+	width: 600px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background: #f0f0f0;
+	height: 1000px;
+}
+.title{
+	width: 100%;
+	padding-top: 40px;
+	border-bottom: 1px solid white;
+	background:#29bde0;
+	color: white;
+	font-size: 25px;
+	overflow: hidden;
+}
+.title span{
+	display: inline-block;
+	margin-left: 35%;
+	margin-bottom: 5px;	
+}
+.title img{
+	width: 25px;
+}
+.title-left{
+	margin-left: 10px;
+}
+.title-right{
+	margin: 10px 15px 0 0;
+	float: right;
+}
+.content{
+	width: 97%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+
+.date{
+	width: 100%;
+	border-bottom: 1px solid gray;	
+	line-height: 50px;
+	color: #29bde0;
+	font-size: 25px;
+	font-weight: bold;
+}
+.nav{
+	float: right;
+	margin:-33px 20px 0 0;
+	cursor: pointer;
+}
+h3{
+	text-align: center;
+}
+.process{
+	position: relative;
+	width: 94%;
+	float:right;
+	padding-bottom: 80px;
+	border-left: 1.5px solid gray;	
+	display: none;
+}
+.margintop{
+	margin-top: 35px;
+}
+.options{
+	position: relative;
+	width: 100%;
+}
+.arrow{
+	position: absolute;
+	top: 40%;
+	left: 3.5%;
+	width: 0;
+	height: 0;
+	border: 10px solid  #f0f0f0;	
+	border-right: 20px solid #29bde0;
+	cursor: pointer;
+}
+input{
+	width: 82%;
+	height: 70px;
+	margin: 12px 9%;
+	border: none;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	background:#29bde0;
+	cursor: pointer;
+}
+.day{
+	position: absolute;
+	top: 7%;
+	left: -4.8%;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	border: 1.5px solid gray;
+	background: #f0f0f0;
+}
+.night{
+	top:58%!important;	
+}
+.icon{
+	margin: 6px 0 0 7px;
+
+}
+.clear{
+	clear: both;
+}

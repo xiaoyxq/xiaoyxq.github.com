@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>杀人游戏简化版</title>
+<link rel="stylesheet" type="text/css" href="simple-version2.css">
+
+</head>
+<body  onload="load()">
+<div class="main">
+	<div class="title">
+		<img class="title-left" src="./js-img/s-version1.png">
+		<span>查看身份</span>
+		<div class="title-right">
+			<img src="./js-img/verson3.png">
+		</div>
+
+	</div>
+
+	<div class="card">
+		<div class="card-number" id=card-num>1</div>
+		
+		<img class="check-img" id="show"  src="./js-img/verson4.png">
+
+		<div class="hidd-message" id="hide">
+			<img src="./js-img/verson5.png">
+			<h2 class="role" id="identify">角色：</h2>
+			<h2>词组：西伯利亚</h2>
+			<div class="tips">想办法猜到别人的词，同时注意不要暴露自己哦！</div>
+
+		</div>		
+	</div>	
+
+	<input class="show-buttom" type="submit" name="" value="查看1号身份" id="show-submit"  onclick="check()">
+	<input class="show-buttom"  type="submit" name="" value="隐藏并传递给2号"  id="hide-submit" hidden onclick="handdown()">	
+
+</div>	 
+<div class="clear"></div>
+ <script type="text/javascript" src="simple-version2.js">
+ </script>
+</body>
+</html>

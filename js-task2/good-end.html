@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>杀人游戏简化版</title>
+<link rel="stylesheet" type="text/css" href="good-end.css">
+ <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+</head>
+<body  onload="load()">
+<div class="main">
+	<div class="title">
+		<img class="title-left" src="./js-img/end1.png">
+		<span >游戏结果</span>
+		<div class="title-right">
+			<img class="check-img" src="./js-img/end2.png">
+		</div>
+	</div>
+	<div class="content">
+		<img  src="./js-img/end3.png">
+		<h1>水民胜利</h1>
+		<div class="game-end">
+			本轮游戏共抓住幽灵<span id="ghost"></span>人，共经历<span id="day-num"></span>个白天，在游戏中击败了<span></span>的玩家！
+		</div>
+		<div class="msg">
+			本次游戏共计用时<span></span>
+			</p>
+			幽灵<span id="msg-ghost"></span>人 &nbsp  &nbsp 水民<span id="peasant"></span>人
+		</div>
+	</div>
+	<div class="details" id="detail"></div>
+	<div class="fixed">
+		<button class="fixed-left" onclick="again()">再来一局</button>
+		<button class="fixed-right">上传并分享</button>
+		
+	</div>
+	
+</div>	 
+	
+<div class="clear"></div>
+ <script type="text/javascript" src="good-end.js" >
+ </script>
+</body>
+</html>

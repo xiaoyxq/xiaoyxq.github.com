@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>杀人游戏简化版</title>
+<link rel="stylesheet" type="text/css" href="diary2.css">
+ <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+</head>
+<body  onload="load()">
+<div class="main">
+	<div class="title">
+		<img class="title-left" src="./js-img/s-version1.png">
+		<span >幽灵胜利</span>
+		<div class="title-right">
+			<img class="check-img" src="./js-img/verson3.png">
+		</div>
+	</div>
+	<div class="content">
+		
+		<div class="date">
+			<h3 >第一天</h3>
+			<img onclick="hide()" class="nav"  src="./js-img/diary1.png">
+		</div>
+		
+		<div class="process" id="process">
+			<div class="options margintop" onclick="kill()">
+				<div class="arrow"></div>
+				<input type="button" name="" value="杀手杀人">
+			</div>
+			<div class="options">
+				<div class="arrow"></div>
+				<input type="button" name="" value="警察救人">
+			</div>
+				<div class="options">
+				<div class="arrow"></div>
+				<input type="button" name="" value="狙击狙人">
+			</div>
+				<div class="options">
+				<div class="arrow"></div>
+				<input type="button" name="" value="医生救人">
+			</div>
+				<div class="options margintop">
+				<div class="arrow"></div>
+				<input type="button" name="" value="亡灵发表遗言">
+			</div>
+				<div class="options">
+				<div class="arrow"></div>
+				<input type="button" name="" value="玩家依次发言">
+			</div>
+				<div class="options">
+				<div class="arrow"></div>
+				<input type="button" name="" value="投票">
+			</div>
+			<div class="day">
+				<img class="icon" style="text-align: center;"  src="./js-img/diary2.png">
+			</div>
+			<div class="night day">
+				<img class="icon"  src="./js-img/diary3.png">
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+</div>	 
+
+<div class="clear"></div>
+ <script type="text/javascript" src="diary2.js">
+ </script>
+</body>
+</html>
