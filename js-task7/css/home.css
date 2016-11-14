@@ -1,0 +1,99 @@
+
+.home-topnav{
+  background: #29bde0;
+  width: 100%;
+  height: 80px;
+}
+.home-menu-icon {
+    position:relative;
+    display:inline-block;
+    width:30px;
+    text-indent:-999px;
+    top: 35px;
+    left: 20px;}
+.home-border-icon {
+    height:20px;
+    border-top: 3px white solid;
+    border-bottom: 3px white solid;
+}
+.home-border-icon:before {
+content:"" ;
+position:absolute;
+top: 5.5px;
+left: 0;
+width: 100%;
+border-top: 3px white solid;
+}
+
+.home-center{
+width: 90%;
+padding: 15px 0;
+margin: 22px auto;
+color: #9a9a9a;
+background: #ffffff;
+}
+.home-center h2{
+  text-align: center;
+  margin: 25px 0;
+}
+.home-center img{
+  float: right;
+  position: relative;
+  right: 15px;
+  top: -60px;
+  
+}
+.home-center h3{
+text-align: center;
+margin-bottom: 25px;
+padding-bottom: 25px;
+border-bottom: 1px #fbb435 solid;
+color: #fbb435;
+}
+
+.home-center button{
+width: 75%;
+margin-left: 10%;
+padding: 8% 0;
+text-align: center;
+color: white;
+background: #29bde0;
+}
+.home-center p{
+  text-align: center;
+  margin: 25px 0;
+  font-size: 20px;
+}
+.home-arrow-p{
+  position: relative;
+  overflow: hidden;
+  margin-left: 5%;
+}
+.home-arrow{
+  position: absolute;
+  top: 48%;
+  right: 3.5%;
+  width: 0;
+  height: 0;
+  border: 25px white solid;
+  border-left: 25px #fbb435 solid;
+}
+
+@media screen and (max-width: 500px){ 
+.home-arrow{
+          right: -2.5%;
+
+      }
+
+
+}
+@media screen and (max-width: 425px){ 
+.home-arrow{
+     right: -3%;
+}
+.home-center h2{
+      font-size: 26px;
+        
+}
+
+}

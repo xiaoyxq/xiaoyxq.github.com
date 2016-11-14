@@ -1,0 +1,32 @@
+<div class="main">
+	<div class="title">
+		<div class="kill-menu title-left">
+			<div class="kill-menu-out"><div class="kill-menu-inner"></div></div>
+		</div>
+		<h2>投票</h2>		
+		<img class="title-right" src="img/close.png">		
+	</div>
+	<div class="vote-msg">
+		<p class="vote-p">点击得票数最多的头像</p>
+		<img class="vote-play" src="img/play.png">
+		<div class="vote-arrow"></div>
+	</div>
+
+	<div class="diary-content" >
+		<h3>点击下方玩家头像，对被狙击的玩家进行标记</h3>
+		<!-- <div class="card" ng-class="{true:'card-t',false:'card-f'}[className]" ng-repeat="x in all[0]" ng-click="kill()">
+			<h2 ng-show="!isshow">{{identify[x]}}</h2>
+			<img ng-show="isshow" src='img/bgd.png'>
+			<h4>{{x}}号</h4>
+		</div>	 -->
+		<div class='diary-card vote-box' ng-class="{true:'diary-card-t',false:'diary-card-f'}[className[x]]" ng-class="{true:'clear-left'}[clear[x]]" ng-repeat="x in all[0]" ng-click="vote()">
+			<h2  ng-hide="{{className[x]}}">{{identify[x]}}</h2>
+			<!-- <h2 ng-show="!className[x]">{{identify[x]}}</h2> -->
+			<img ng-show="{{className[x]}}" src='img/bgd.png'>
+			<h4 >{{x}}号</h4>
+		</div>	
+	</div>				
+			
+	<button class="diary-button" ng-click="voteSkip()">投死</button>
+	
+</div>	 

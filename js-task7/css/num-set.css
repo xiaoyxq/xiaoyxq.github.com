@@ -1,0 +1,136 @@
+
+.set-title{
+	position: relative;
+	width: 100%;
+	padding: 30px 0 15px 0;	
+	background:#29bde0;
+	color: white;
+	font-size: 25px;
+	overflow: hidden;
+}
+.set-title img{
+	position: absolute;
+	top: 51%;
+	left: 2%;
+	width: 18px;
+}
+.set-title h2{
+	text-align: center;	
+}
+
+.set-help{
+	position: absolute;
+	top: 51%;
+	right: 0%;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	border:2px solid white;
+	margin: 0 20px 10px 0;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+.set-content{
+	padding: 15px;
+	background: #efefef;
+	font-size: 21px;
+	overflow: hidden;
+
+}
+.set-content-top{
+	overflow: hidden;
+}
+.palyers-out{
+	width: 20%;
+	height: 300px;
+	background: white;
+	float: left;
+}
+.set-palyers{
+	
+	width: 30px;
+	margin: auto;
+	margin-top: 80px;
+	font-weight: bold;
+	font-size: 25px;	
+}
+.set-content ul{	
+	list-style: none;
+	width: 80%;
+	height: 300px;
+	float: left;
+	background: #fbfbfb;
+}
+.set-content ul li{
+	margin-top: 2%;
+	margin-left: 25px;
+}
+.set-content ul li input{
+	width: 50%;
+	height: 35px;
+	padding-left: 20px;
+}
+.set-set{
+	margin-top: 75px;
+	color: #29bde0;
+	cursor: pointer;
+}
+.set-set img{
+	width: 20px;
+}
+.set-phrase{
+	margin-top: 15px;
+	height: 220px;
+	background-color: white;
+}
+.set-ghost{
+	height: 100px;
+	line-height: 100px;
+	margin-left: 25px;
+	border-bottom:2px solid #f0f0f0;
+}
+.set-numbers {
+	height: 200px;
+	margin-top: 15px;
+	padding-top: 25px;
+	padding-left: 10%;
+	background: white;
+	font-weight: bold;
+
+}
+.set-nums{
+	width: 40px;
+	height: 20px;
+	margin: 0 5px;
+	color: orange;
+	text-align: center;
+	background: #efefef;
+
+}
+.set-numbers input[type=range]{
+	width: 75%;
+	margin: auto;
+	display: inline-block;
+	cursor:pointer;
+}
+.set-numbers button{
+	text-align: center;
+	line-height: 30px;
+	width: 20px;
+	height: 30px;
+	margin-top: 75px;
+	font-weight: bold;
+}
+
+.set-input{                                                       
+	width: 100%;
+	height: 70px;
+	margin-top: 15px;
+	background: #fab344;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 8px;
+
+}
