@@ -1,0 +1,19 @@
+<div class="main">	
+		<div class="title">
+			<img class="title-left" src="img/return.png">
+			<h2>法官日志</h2>
+			<img class="title-right" src="img/close.png">
+		</div>
+		
+	<!-- 	<div class="content" ng-bind-html="html | htmlContent"> -->
+		<!-- <div class="content" ng-repeat="x in htmls track by $index"> -->
+			<!-- {{x | htmlContent}} -->
+			<!-- 调用compile指令 -->
+			<!-- <div compile="ht"></div>    -->
+		<div class="diary-content" id="box" >
+			<!-- <repeat ></repeat>	 -->
+			<div class="diary-card diary-card-t" ng-class="{true:'clear-left'}[clear[x]]" ng-repeat="x in all[0]" ng-click="check()" ><h2 ng-show="!isshow">{{identify}}</h2><img ng-show="isshow" src='img/bgd.png'><h4>{{x}}号</h4></div>
+		</div>
+		<button class="diary-button" ng-click="diarySkip()">开始游戏</button>
+	 
+</div>

@@ -1,0 +1,24 @@
+<form class="home-main">
+	<h4>已报名弟子：</h4>
+	<span ng-click="add()" class="add">+</span>
+	<table id="researchResult" class="research">
+	<thead>
+		<tr>
+			<th><input type="checkbox" name="edit" ng-model="all">姓名</td>
+			<th>修真类型</td>
+			<th>报名时间</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="x in params" >			
+			<td ><input type="checkbox" name="edit" class="home-main-td" ng-checked="all" value="$index" ng-model="x.logic"><span ng-bind="x.name" ng-click=edit()></span></td>
+			<td>{{types[x.type].type}}</td>
+			<td ng-model="convert">{{x.createAt | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+		</tr>
+	</tbody>
+	</table>
+	<button ng-click="delete()">删除</button>
+	<button ng-click="cancel()" class="bottom-cancel">取消</button>
+
+</form>
+

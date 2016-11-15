@@ -1,0 +1,81 @@
+.revise-main{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 1px solid gray;
+	font-size: 18px;
+	overflow: hidden;
+}
+.revise-main a{
+	display: block;
+	margin: 15px 0 15px 90%;
+	font-size: 20px;	
+}
+.revise-text-right{
+	text-align: right;
+	margin: 5px 0;
+	clear:left;
+}
+.revise-main span{
+	display: inline-block;
+	width: 80%;
+}
+.revise-radio{
+	display: inline-block;
+	margin: 5px 0;	
+}
+.revise-radio-t{
+	width: 82%;
+	border:none;
+	border-radius: 4px;
+}
+.revise-radio-f{
+	width: 82%;
+	border-radius: 4px;
+	background: lightgray;
+}
+.revise-main label{
+	margin: 5px 15px 5px 0;
+	font-weight: normal;
+	cursor: pointer;
+}
+.revise-main input[type=text],input[type=number]{
+	width: 100%;	
+	margin: 5px 0;
+}
+.revise-main textarea{
+	width: 100%;	
+	height: 100px;
+	margin: 5px 0;
+}
+.revise-main button{
+	float: left;
+	width: 60px;
+	margin: 3% 5% 3% 0;
+
+}
+
+.revise-button-left{
+	margin-left: 18.5%!important;
+	
+
+}
+.revise-margintop{
+	margin-top: 5px;
+}
+.revise-main p{
+	margin-left: 18%;
+	font-size: 12px;
+	color: red;
+}
+
+@media screen and (max-width: 768px){
+	.revise-text-right{
+		text-align: left;	
+	}
+	.revise-button-left{
+		margin-left: 15px!important;
+		
+
+	}
+}

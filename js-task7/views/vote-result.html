@@ -1,0 +1,23 @@
+
+<div class="main">
+	<div class="title">
+		<div class="decrypt-menu title-left">
+			<div class="decrypt-menu-out"><div class="decrypt-menu-inner"></div></div>
+		</div>
+		<h2>投票结果</h2>
+		<img class="title-right" src="img/close.png">
+	</div>
+	<div class="decrypt-content">
+		<div class="decrypt-play">
+			<div class="decrypt-arrow"></div>
+		</div>
+		<div class="decrypt-img-outline">		
+			<img  src="img/decrypt.png">	
+		</div>
+
+		<div class="decrypt-notice" ><span ng-bind="number"></span>号玩家被杀死了，真实身份是<span ng-bind="identify"></div>
+		
+	</div>
+	<button class="decrypt-button" ng-click="voteReSkip()">确定</button>	
+	
+</div>	 

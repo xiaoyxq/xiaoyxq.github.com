@@ -1,0 +1,85 @@
+.end-main{
+	max-width: 600px;
+}
+.title img{
+	width: 35px;
+}
+
+.end-content{
+	width: 70%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	overflow: hidden;	
+}
+.end-content img{
+	width: 70%;
+	margin:5% 0 0 15%;
+}
+
+.end-content h1{
+	text-align: center;
+	margin-top: -13%;
+	color: white;
+}
+.end-game-end{
+	margin-top: 8%;
+	font-size: 27px;
+	font-weight: bold;
+	color: orange;
+}
+.end-msg{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: white;
+	font-size: 21px;
+	line-height: 25px;
+}
+.end-footer{
+	padding-bottom: 100px;
+	background: white;
+}
+.end-process{
+	width: 100%;
+	padding: 10px 0 5px 15%;
+	border-bottom: 1px gray solid;
+	font-size: 20px;
+	
+}
+.end-process h4{
+	margin: 0;
+}
+.end-fixed{
+	position: fixed;
+	max-width: 600px;
+	width: 100%;
+	/*width: 600px;*/
+	bottom: 1px;
+	background: rgba(153,223,240,0.5);
+}
+.end-fixed button{
+	width: 40%;
+	height: 65px;
+	border-radius: 6px;
+	color: white;
+	font-size: 30px;
+
+}
+.end-fixed-left{
+	margin:3% 3% 3% 8%;
+	background: #f66f6f;
+}
+.end-fixed-right{
+	background: #fbb435;
+}
+/*.clear{
+	clear: both;
+}*/
+@media screen and (max-width: 480px){
+	.end-fixed button{	
+		font-size: 25px;
+	}
+	.end-content h1{
+		font-size: 25px;
+	}
+}    
