@@ -1,0 +1,72 @@
+
+<div class=" revise-main">
+<a href="index.html">返回>></a>
+<form name="revise" >
+	<div class="col-sm-2 col-xs-12 revise-text-right" >姓名：</div>
+	<div class="col-sm-10 col-xs-12">
+		<input ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" type="text" name="rname" ng-model="name" required 
+		pattern="^[\u4e00-\u9fa5]{2,6}$">
+	</div>
+	<p ng-if="revise.rname.$error.required && revise.rname.$touched">用户名不可为空!</p>
+	<p ng-if="revise.rname.$error.pattern && revise.rname.$touched">用户名为2~6中文!</p>
+	
+	<div class="col-sm-2 col-xs-12 revise-text-right" >QQ：</div>
+	<div class="col-sm-10 col-xs-12">
+		<input ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" type="text" name="rqq" ng-model="qq " required
+		pattern="^[0-9]{5,10}$">
+	</div>
+	<p ng-if="revise.rqq.$error.required && revise.rqq.$touched">用户名不可为空!</p>
+	<p ng-if="revise.rqq.$error.pattern && revise.rqq.$touched">请输入正确的qq号!</p>
+
+	<div class="col-sm-2 col-xs-12 revise-text-right">修真类型：</div>
+	<div  ng-show="isshow" class="col-sm-10 col-xs-12 ">
+		<div  class="revise-radio" ng-repeat="x in types track by $index">
+			<label ><input  type="radio" name="typename" ng-value="$index"   ng-model="params.type" >{{x.type}}</label>
+		</div>
+	</div>
+	<div class="col-sm-10 col-xs-12 revise-margintop" ng-show="!isshow"  >{{types[params.type].type}}</div>
+
+	<div class="col-sm-2 col-xs-12 revise-text-right">毕业院校：</div>
+	<div class="col-sm-10 col-xs-12">
+		<input ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" type="text" name="rschool" ng-model="school" required
+		pattern="^[\u4e00-\u9fa5]{1,10}$">
+	</div>
+	<p ng-if="revise.rschool.$error.required && revise.rschool.$touched">毕业院校不可为空!</p>
+	<p ng-if="revise.rschool.$error.pattern && revise.rschool.$touched">毕业院校为中文!</p>
+
+
+	<div class="col-sm-2 col-xs-12 revise-text-right">资质：</div>
+	<div ng-show="isshow" class="revise-radio col-sm-10 col-xs-12">
+		<label ><input  type="radio" name="talentname" ng-value="0"  ng-model="talent" >学霸</label>
+		<label ><input type="radio" name="talentname"  ng-value="1" ng-model="talent" >学渣</label>
+	</div>
+	<div class="col-sm-10 col-xs-12 revise-margintop" ng-show="!isshow">{{talents[talent].talent}}</div>
+
+	<div class="col-sm-2 col-xs-12 revise-text-right">修行等级：</div>	
+	<div class="col-sm-10 col-xs-12 revise-margintop" ng-show="!isshow">{{levels[params.level].level}}</div>
+	<div ng-show="isshow"  class=" col-sm-10 col-xs-12">
+		<div class="revise-radio"  ng-repeat="x in levels">
+			<label ><input type="radio" name="levelname" ng-value="$index"  ng-model="params.level" >{{x.level}}</label>
+		</div>
+	</div>
+
+	<div class="col-sm-2 col-xs-12 revise-text-right" >预计入学时间：</div>
+	<div class="col-sm-10 col-xs-12">
+		<input ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" type="text" name="rjointime" ng-model="jointime" 
+		required pattern="^[0-9]{6,8}$">
+	</div>
+	<p ng-if="revise.rjointime.$error.required && revise.rjointime.$touched">入学时间不可为空!</p>
+	<p ng-if="revise.rjointime.$error.pattern && revise.rjointime.$touched">请输入正确的入学时间！（如20160511）</p>
+
+	<div class="col-sm-2 col-xs-12 revise-text-right" ng-minlength="10" ng-maxlength="200">修行立愿：</div>
+	<div class="col-sm-10 col-xs-12">															
+		<!-- <input ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" type="text" name=""  ng-model="wish"> -->
+		<textarea ng-class="{true:'revise-radio-t',false:'revise-radio-f'}[radio]" name="rwish"  ng-model="wish" required></textarea>
+	</div>
+	<p ng-if="revise.rwish.$error.required && revise.rwish.$touched">立愿不可为空!</p>
+
+
+	<button class="revise-button-left"  ng-click="editData()">{{buttom}}</button>
+	<button ng-click="cancel()" id="cacnel">删除</button>
+</form>
+</div>
