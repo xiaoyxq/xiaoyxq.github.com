@@ -1,0 +1,23 @@
+
+<div class="main" ng-app="myApp">
+	<div class="title">
+		<img class="title-left" src="img/return.png">
+		<h2>查看身份</h2>
+		<img class="title-right" src="img/close.png">
+	</div>
+
+	<div class="card">
+		<div class="check-card-number">{{number}}</div>		
+		<img ng-show="isshow" class="check-img" id="show"  src="img/show.png">
+
+		<div ng-show="!isshow" class="check-hidd-message" id="hide">
+			<img src="img/hide.png">
+			<h2 >角色：<span ng-bind="identify"></span></h2>
+			<h2>词组：西伯利亚</h2>
+			<div class="check-tips">想办法猜到别人的词，同时注意不要暴露自己哦！</div>
+		</div>		
+	</div>	
+	<button class="check-button"  ng-bind="content"  ng-click="change()"></button>
+	<!-- <input class="show-buttom"  type="submit" name="" value="隐藏并传递给2号"  id="hide-submit" hidden onclick="handdown()">	 -->
+</div>	 
+<div class="clear"></div>

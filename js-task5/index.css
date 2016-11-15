@@ -1,0 +1,61 @@
+
+h4{
+	display: inline-block;
+	margin: 3% 0 2% 2%!important ;
+}
+a{
+	display: inline-block;
+	margin-left: 67%;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+
+button{
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+}
+.research{
+	width: 80%;
+}
+.show{
+
+	cursor: pointer;
+}
+th{
+	height: 40px;
+	width:30%;
+	text-align: center!important;
+	border:1px solid gray;
+	font-size: 16px;	
+}
+td{	
+	height: 40px;
+	text-align: center!important;
+	border:1px solid gray;
+	font-size: 16px;	
+}
+td span{
+	line-height: 40px;
+}
+input[type=checkbox]{
+	/*display: none;*/
+	float: left;
+	display: inline;
+	opacity: 0;
+	
+}
+button{
+	float: left;
+	width: 100px;
+	border-radius: 5px;
+	margin: 20px 0 0 45px!important;
+}
+.bottom-cancel{
+	display: none;
+}
+table{
+	margin-left: 3%;
+}
