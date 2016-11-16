@@ -13,21 +13,20 @@ myApp.controller('homeCtrl',function($scope,$state,$http,type){
 					console.log($scope.params[i].logic);
 					$scope.test.push($scope.params[i].logic);
 					console.log($scope.params[i].id);
-					// $http({
-					// 	method:"POST",
-					// 	url:"a/students",
-					// 	params:{						
-					// 		id:$scope.params[i].id
-					// 	},		
-					// })
-					// $scope.cancel=function(){
-					// 	console.log($scope.test);
-					// }
+					$http({
+						method:"POST",
+						url:"a/students",
+						params:{						
+							id:$scope.params[i].id
+						},		
+					}).success(function(data,status,headers,config){
+						alert("删除成功");
+					})
+				
 				
 				}
 			}
-			$scope.re.push(1);	
-			console.log($scope.re);	
+
 		}
 		
 		//获得点击对象的id，并传参到下页面

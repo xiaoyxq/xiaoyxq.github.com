@@ -42,6 +42,8 @@ myApp.controller('reviseCtrl',function($scope,$state,$stateParams,$http,type,lev
 						joinTime:$scope.jointime,				
 						wish:$scope.wish
 					},
+				}).success(function(data){
+					alert("修改成功!");
 				})
 
 			}

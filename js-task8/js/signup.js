@@ -27,6 +27,8 @@ myApp.controller('signupCtrl',function($scope,$state,$stateParams,$http,type,lev
 				wish:$scope.wish
 			},
 		
+		}).success(function(data){
+			alert("添加成功");
 		})
 	}	
 })
