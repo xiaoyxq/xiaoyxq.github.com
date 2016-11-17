@@ -3,6 +3,7 @@
 	margin-left: 10%;
 	margin-top: 5%;
 	border: 1px solid gray;
+	padding: 10px;
 	font-size: 18px;
 	overflow: hidden;
 }
@@ -48,18 +49,10 @@
 	height: 100px;
 	margin: 5px 0;
 }
-.revise-main button{
-	float: left;
+.revise-main button{	
 	width: 60px;
-	margin: 3% 5% 3% 0;
-
 }
 
-.revise-button-left{
-	margin-left: 18.5%!important;
-	
-
-}
 .revise-margintop{
 	margin-top: 5px;
 }
@@ -73,9 +66,5 @@
 	.revise-text-right{
 		text-align: left;	
 	}
-	.revise-button-left{
-		margin-left: 15px!important;
-		
-
-	}
+	
 }
