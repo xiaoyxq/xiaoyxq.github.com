@@ -22,10 +22,11 @@
             <div class="col-sm-2 col-xs-12 text-right">修真类型：</div>
             <div class="col-sm-10 col-xs-12">
                 <div class="sign-radio" ng-repeat="x in types">
-                    <label><input type="radio" name="typename" ng-click="stType()" required>{{x.type}}</label>
+                    <label><input type="radio" name="typename" ng-click="stType()" ng-value="$index" ng-model="params.type" > {{params.type}}{{x.type}}</label>
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-2 col-xs-12 text-right">毕业院校：</div>
             <div class="col-sm-10 col-xs-12">
@@ -46,7 +47,7 @@
             <div class="col-sm-2 col-xs-12 text-right">修行等级：</div>
             <div class="col-sm-10 col-xs-12">
                 <div class="sign-radio" ng-repeat="x in levels">
-                    <label><input type="radio" name="levelname" ng-click="stLevel()" required>{{x.level}}</label>
+                    <label><input type="radio" name="levelname" ng-click="stLevel()" ng-value="$index" ng-model="params.level" >{{x.level}}</label>
                 </div>
             </div>
         </div>
@@ -54,8 +55,8 @@
             <div class="col-sm-2 col-xs-12 text-right">预计入学时间：</div>
 
             <div class="col-sm-10 col-xs-12">
-                <input type="text" name="sjointime" id="selectDate"  ng-model="jointime"
-                       placeholder="请选择预计入学时间" >
+                <input type="text" name="sjointime" id="selectDate" ng-model="jointime"
+                       placeholder="请选择预计入学时间">
             </div>
 
             <!--<p ng-if="sign.sjointime.$error.required">入学时间不可为空!</p>-->
