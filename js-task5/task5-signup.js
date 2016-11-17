@@ -14,7 +14,7 @@ $(document).ready(function(){
 				level:$("input[name=levelname]:checked").val(),
 				joinTime:$("#stjoinTime").val(),
 				// wish:$("#stwish").html(),
-				wish:ue.getContent()，   //从编辑器获得内容
+				wish:ue.getContent(),   //从编辑器获得内容
 			},
 			success:function(data){
 				
